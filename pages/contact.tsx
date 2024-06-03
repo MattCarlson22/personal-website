@@ -8,7 +8,7 @@ export default function Contact() {
     return (
         <div>
             <Navbar />
-            <main className="flex flex-col items-center justify-center min-h-screen py-12 animate-slideUp">
+            <main className="flex flex-col items-center min-h-screen py-12 animate-slideUp">
                 <h1 className="text-5xl font-bold mb-8">Contact Me</h1>
                 <ContactForm />
             </main>

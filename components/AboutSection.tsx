@@ -2,7 +2,7 @@
 
 const AboutSection = () => {
     return (
-        <section className="py-12 bg-slate-800 text-center animate-slideUp">
+        <section className="rounded-lg py-12 bg-slate-800 text-center animate-slideUp">
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl font-bold mb-6 text-slate-200">About Me</h2>
                 <div className="flex flex-col items-center md:flex-row md:items-start md:space-x-8">

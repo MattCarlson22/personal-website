@@ -3,7 +3,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProjectCard from "@/components/ProjectCard";
-import styles from '@/styles/Projects.module.css';
 
 const projects = [
     {
@@ -17,9 +16,9 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div className={styles.container}>
+        <div>
             <Navbar />
-            <main className="flex flex-col items-center justify-center min-h-screen py-12">
+            <main className="flex flex-col items-center min-h-screen py-12">
                 <h1 className="text-5xl font-bold mb-8">My Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => (

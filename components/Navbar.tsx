@@ -3,7 +3,7 @@
 import Link from "next/link";
 const Navbar = () => {
     return (
-        <nav className="bg-slate-800 p-4 fixed w-full top-0 z-50">
+        <nav className="bg-slate-800 p-4 fixed w-full top-0 z-50 animate-fadeIn">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-white text-lg font-bold">
                     <Link href="/">mattcarlson.vercel.app</Link>

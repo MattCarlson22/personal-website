@@ -2,7 +2,7 @@
 
 const ContactForm = () => {
     return (
-      <form className="flex flex-col space-y-4 max-w-md mx-auto bg-slate-800 shadow-md rounded-lg p-8">
+      <form className="flex flex-col space-y-4 max-w-md mx-auto bg-slate-800 shadow-md rounded-lg p-8 animate-fadeIn">
         <div className="flex flex-col">
           <label htmlFor="name" className="text-gray-300 font-bold mb-2">Name</label>
           <input

@@ -9,7 +9,7 @@ export default function Home() {
         <div>
             <Navbar />
             <main className="flex flex-col items-center min-h-screen py-12">
-                <h1 className="text-5xl font-bold mb-8">Welcome to My Portfolio</h1>
+                <h1 className="text-5xl font-bold mb-8 animate-slideUp">Home</h1>
                 <AboutSection />
             </main>
             <Footer />

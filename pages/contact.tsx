@@ -3,14 +3,13 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
-import styles from "@/styles/Contact.module.css"
 
 export default function Contact() {
     return (
-        <div className={styles.container}>
+        <div>
             <Navbar />
-            <main className={styles.container}>
-                <h1 className={styles.title}>Contact Me</h1>
+            <main className="flex flex-col items-center justify-center min-h-screen py-12">
+                <h1 className="text-5xl font-bold mb-8">Contact Me</h1>
                 <ContactForm />
             </main>
             <Footer />

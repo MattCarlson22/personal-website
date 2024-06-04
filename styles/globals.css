@@ -7,3 +7,18 @@ body {
   @apply bg-slate-900 text-slate-200;
   padding-top: 64px;
 }
+
+@keyframes moveLines {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 400% 400%;
+  }
+}
+
+.moving-lines {
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    background-size: 400px 400px;
+    animation: moveLines 120s linear infinite;
+}

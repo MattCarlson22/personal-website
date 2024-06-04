@@ -34,7 +34,7 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div>
+        <div className="moving-lines">
             <Navbar />
             <main className="flex flex-col items-center min-h-screen py-12 px-4 md:px-8">
                 <h1 className="text-5xl font-bold mb-8 animate-slideUp">My Projects</h1>

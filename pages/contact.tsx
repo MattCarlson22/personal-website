@@ -6,7 +6,7 @@ import ContactForm from "@/components/ContactForm";
 
 export default function Contact() {
     return (
-        <div>
+        <div className="moving-lines">
             <Navbar />
             <main className="flex flex-col items-center min-h-screen py-12 animate-slideUp">
                 <h1 className="text-5xl font-bold mb-8">Contact Me</h1>
